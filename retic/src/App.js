@@ -18,6 +18,7 @@ const App = () => (
       <NavStyled>
         <LinkStyled to="/">Home</LinkStyled>
         <LinkStyled to="/Character">Character</LinkStyled>
+        <LinkStyled to="/InfinityStones">Infinity Stones</LinkStyled>
       </NavStyled>
       <Content>
         <Routes />
