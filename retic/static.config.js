@@ -16,6 +16,10 @@ export default {
         component: 'src/containers/Character'
       },
       {
+        path: '/Infinitystones',
+        component: 'src/containers/Infinitystones'
+      },
+      {
         is404: true,
         component: 'src/containers/404',
       },
@@ -36,6 +40,7 @@ export default {
       return (
         <Html>
           <Head>
+            <title>Infinty War Guideline</title>
             <meta charSet="UTF-8" />
             <meta name="viewport" content="width=device-width, initial-scale=1" />
             <style dangerouslySetInnerHTML={{ __html: renderMeta.glamStyles }} />
